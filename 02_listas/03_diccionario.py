@@ -13,7 +13,7 @@ print(type(otro_dict))
 # diccionario con elementos
 mi_dict = {"nombre": "harry", "apellido": "gonzalez", "edad": 20, "lenguaje": "python"}
 
-# tambien se ouede escribir en varias lineas para mayor legibilidad
+# tambien se puede escribir en varias lineas para mayor legibilidad
 otro_dict = {
 
     "nombre": "harry",
@@ -29,7 +29,7 @@ print(otro_dict)
 # acceder a los valores
 print(otro_dict["nombre"])
 # si la clave no existe puede dar un error, para evitar eso podemos usar el metodo .get()
-print(otro_dict.get("email")) # la ultima clave cuenta como valor por defecto (none)
+print(otro_dict.get("email")) # Si la clave no existe, devuelve None por defecto
 
 
 # modificar valores existentes

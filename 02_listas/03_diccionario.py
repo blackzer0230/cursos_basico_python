@@ -86,3 +86,8 @@ usuarios = {
 }
 print(usuarios["user1"]["nombre"])
 print(usuarios["user2"]["edad"])
+
+
+
+# algo que estaba inventando
+print(f"en la base de datos tenemos al usuario {usuarios['user1']["nombre"]} y al usuario {usuarios['user2']["nombre"]}")

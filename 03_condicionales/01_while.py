@@ -1,42 +1,38 @@
-    ### bucles ###
+    ### WHILE ###
+# se ejecuta ese bloque de codigo mientras una condicion sea verdadera
+# while condicion:
+#   codigo a repetir
+# else:
+#   opcional solo se ejecuta si se vuelve falsas con while
 
-# while
 
-mi_condicion = 0
+mi_condicion = 0 
 
-while mi_condicion < 10: # se  ejecuta si la condicion es verdadera en este caso la condicion es menor? verdadero  
+while mi_condicion < 10:
     print(mi_condicion)
     mi_condicion += 2
-else: # es opcional 
-    print("mi condicion ya es mayor o igual a 10")
+else: # solo se ejecuta si la condion se vuelve falsa de forma natural
+    print("mi condicion es igual o mayor a 10")
 
 
 
+# BREAK para salir anticipadamente
+mi_condicion = 0
 
-otra_condicion = 0 
-
-while otra_condicion < 20:
-    otra_condicion +=2
-    if otra_condicion == 16:
-        print("se detiene la ejecucion")
-        break   # se detiene la condicion si se cumple cierta condicion 
-
-    print(f"mi condicion es menor que 20 y va por {otra_condicion}")
-
-
-# FOR 
+while mi_condicion < 20:
+    mi_condicion += 2
+    if mi_condicion == 16:
+        print("se detiene porque quiero hasta el 16")
+        break
+    print(f"mi condicion es menor o igual que 20 {mi_condicion}")
 
 
 
+# CONTINUE  para saltar una iteracion
+contador = 0
 
-
-
-
-
-
-
-
-
-
-
-
+while contador < 5:
+    contador += 1
+    if contador == 3:
+        continue # salta esa ejecucion para la siguiente si se cumple esa condicion
+    print(contador)

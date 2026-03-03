@@ -1,42 +1,53 @@
-# 📘 Mis Apuntes de Python
+# 🐍 Mis Apuntes de Python - Aprendizaje desde Cero
 
-¡Hola! Este repositorio contiene todos mis apuntes y ejemplos de código mientras aprendo Python. Aquí encontrarás desde conceptos básicos hasta temas más avanzados, todo explicado de forma sencilla y con ejemplos prácticos.
+Este repositorio contiene **todos mis apuntes y ejemplos de código** mientras aprendo Python. He organizado cada tema en secciones, con explicaciones claras y muchos comentarios para facilitar la comprensión. Desde lo más básico hasta conceptos más avanzados como clases, excepciones y módulos.
 
-## 📋 Tabla de Contenidos
-
-1. [Listas](#listas)
-2. [Tuplas](#tuplas)
-3. [Sets (Conjuntos)](#sets-conjuntos)
-4. [Diccionarios](#diccionarios)
-5. [Métodos de Strings](#métodos-de-strings)
-6. [Bucles (for)](#bucles-for)
-7. [Funciones](#funciones)
-8. [Clases y POO](#clases-y-poo)
-9. [Manejo de Excepciones](#manejo-de-excepciones)
-10. [Módulos](#módulos)
+> 📁 **Total de temas:** 19  
+> ⏳ **Tiempo dedicado:** Horas de práctica y estudio  
+> 🎯 **Objetivo:** Tener una referencia completa y compartir mi progreso
 
 ---
 
-## 📌 Listas
+## 📚 Tabla de Contenidos
 
-Las listas son colecciones **ordenadas**, **mutables** y pueden contener elementos de diferentes tipos.
+1. [Hola Mundo y comentarios](#hola-mundo-y-comentarios)
+2. [Tipos de datos básicos](#tipos-de-datos-básicos)
+3. [Variables](#variables)
+4. [Operadores](#operadores)
+5. [Strings (cadenas)](#strings-cadenas)
+6. [Métodos de strings](#métodos-de-strings)
+7. [Listas](#listas)
+8. [Tuplas](#tuplas)
+9. [Sets (conjuntos)](#sets-conjuntos)
+10. [Diccionarios](#diccionarios)
+11. [Condicionales (if/elif/else)](#condicionales-ifelifelse)
+12. [Bucle while](#bucle-while)
+13. [Bucle for](#bucle-for)
+14. [Funciones](#funciones)
+15. [Clases y POO](#clases-y-poo)
+16. [Manejo de excepciones](#manejo-de-excepciones)
+17. [Módulos](#módulos)
+18. [Módulo de ejemplo (mi_module.py)](#módulo-de-ejemplo-mi_modulepy)
+19. [Notas importantes](#notas-importantes)
+
+---
+
+## Hola Mundo y comentarios
 
 ```python
-# Crear listas
-mi_lista = [10, 24, 17, 40, 40, 7, 65]
-mi_otra_lista = [20, 1.80, "choso", "gonlez"]
+# esto es un comentario en python
+# en comentario no es ejecutado por el programa.
 
-# Acceder a elementos
-print(mi_otra_lista[0])   # 20
-print(mi_otra_lista[-1])  # "gonlez"
+print('Hello World!!') # con una sola comilla simple
+print("Hello World!!") # con comillas dobles
 
-# Métodos útiles
-mi_lista.append(99)        # Añade al final
-mi_lista.insert(1, 15)     # Inserta en posición 1
-mi_lista.remove(40)        # Elimina el primer 40
-elemento = mi_lista.pop()  # Elimina y devuelve el último
-mi_lista.sort()            # Ordena la lista
-mi_lista.reverse()         # Invierte el orden
+print("hola" + " " + "mundo") # conccatenando strings
 
-# Slicing (rebanadas)
-print(mi_lista[2:5])       # Elementos del índice 2 al 4
+"""
+esto es una comentario de varias lineas en python
+que se puede usar para explicar el codigo o para escribir notas
+que pueden ser utiles para otros programadores o para uno mismo en el futuro
+"""
+
+# consultar el tipo de dato
+print(type("Hello World!!")) # el tipo de dato es un str
